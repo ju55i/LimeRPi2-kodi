@@ -17,8 +17,8 @@ mkdir -p /storage/java
 ```
 mkdir -p /storage/limelight
 cd /storage/limelight
-curl -o libopus.so https://github.com/irtimmer/limelight-embedded/releases/download/v1.2.2/libopus.so
-curl -o limelight.jar https://github.com/irtimmer/limelight-embedded/releases/download/v1.2.2/limelight.jar
+curl -L -O https://github.com/irtimmer/limelight-embedded/releases/download/v1.2.2/libopus.so
+curl -L -O https://github.com/irtimmer/limelight-embedded/releases/download/v1.2.2/limelight.jar
 ```
 
 3. Pair the pi with the computer. (substitute 192.168.0.150 with the IP of your desktop)
